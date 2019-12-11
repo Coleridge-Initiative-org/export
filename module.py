@@ -1,13 +1,14 @@
 # Define function
-
+#first function to test if it worked
 def world():
     print("Hello, world!!!")
 
-
+#first real function to see if i could implement anything
 def add_8(x):
     print(x + 8)
 
-
+# finds counts for dummy variables and either gives counts if all satisfy or
+# prints the names of the dummies that don't satisfy the condition
 def dummy_counts(df):
     # only get columns that are dummied
     dummy = [c for c in df.columns if df[c].dtype == 'uint8']

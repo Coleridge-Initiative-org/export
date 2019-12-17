@@ -1,3 +1,7 @@
+# requires pandas
+import pandas
+
+
 # finds counts for dummy variables and either gives counts if all satisfy or
 # prints the names of the dummies that don't satisfy the condition
 def dummy_counts(df, cutoff = 10):

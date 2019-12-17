@@ -1,12 +1,3 @@
-# Define function
-#first function to test if it worked
-def world():
-    print("Hello, world!!!")
-
-#first real function to see if i could implement anything
-def add_8(x):
-    print(x + 8)
-
 # finds counts for dummy variables and either gives counts if all satisfy or
 # prints the names of the dummies that don't satisfy the condition
 def dummy_counts(df, cutoff = 10):

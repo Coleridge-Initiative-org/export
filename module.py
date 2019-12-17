@@ -1,5 +1,5 @@
 # requires pandas
-import pandas
+import pandas as pd
 
 
 # finds counts for dummy variables and either gives counts if all satisfy or

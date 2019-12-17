@@ -18,3 +18,19 @@ def dummy_counts(df, cutoff = 10):
     else:
     # get the value counts for each dummy
         return([print(df[var].value_counts()) for var in dummy])
+
+#Creating a crosstab that returns a table, but with values less than 10 returned to NaN
+def fuzzy_crosstab(col1,col2):
+
+    #Create the initial crosstab
+    xtab = pd.crosstab(col1, col2)
+
+    #Reset the index so you may loop over the columns
+    xtab_fixed = xtab.reset_index()
+
+    #Loop over the columns, finding which columns are a int64 dtype
+    #If column type is numeric, replace values < 10 with NaN
+    for i in xtab_fixed.columns:
+        if xtab_fixed[i].dtype == 'int64':
+            xtab_fixed.loc[xtab_fixed[i] < 10, i] = 'NaN'
+    return xtab_fixed

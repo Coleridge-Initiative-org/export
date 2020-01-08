@@ -11,9 +11,12 @@ def dummy_counts(df, cutoff = 10):
     # check if all counts are at least 10
     less = [var for var in dummy if df[var].value_counts()[0] < cutoff or df[var].value_counts()[1] < cutoff]
 
+    #make cutoff a string so it can be used in the .format later
+    cutoff = str(cutoff)
+
     #if there are none that don't satisfy condition print all the counts, else print the offenders
     if len(less) > 0:
-        print("These dummy variables didn't have counts of at least 10 for both when they are 1 or 0: \n")
+        print("These dummy variables didn't have counts of at least {} for both when they are 1 or 0: \n".format(cutoff))
         return([print(var) for var in less])
     else:
     # get the value counts for each dummy

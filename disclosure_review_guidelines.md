@@ -51,3 +51,7 @@ Must not have one that constitutes a share of at least 80% of the following:
 
 - Statistics and visualizations must also be based on at least 3 unique data points
 at an institution level
+
+### OLDA (OSU)
+
+- Have to check for firm dominance (more than 80% of employees come from no more than 3 firms) if reporting on firm-based statistics.

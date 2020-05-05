@@ -46,6 +46,7 @@ Must not have one that constitutes a share of at least 80% of the following:
 - Brand
 - Manufacturer
 
+Must pass additional review from IRI representative.
 
 ### NCSES-NSF
 

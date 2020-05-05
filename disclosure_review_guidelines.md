@@ -53,6 +53,10 @@ Must pass additional review from IRI representative.
 - Statistics and visualizations must also be based on at least 3 unique data points
 at an institution level
 
+Must pass additional review by NSF and IRIS representatives.
+
 ### OLDA (OSU)
 
 - Have to check for firm dominance (more than 80% of employees come from no more than 3 firms) if reporting on firm-based statistics.
+
+Must pass additional review by OLDA representative.

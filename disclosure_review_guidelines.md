@@ -12,7 +12,7 @@ Every group needs to have at least 10 individuals (or entities)
   - Any numerical statistic
   - Scatterplots
 
-No mean, median, quantiles
+No median or specific quantiles
 - This also pertains to boxplots
   - Solution: Use fuzzy quantiles
 

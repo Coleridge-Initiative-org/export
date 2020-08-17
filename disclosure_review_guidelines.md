@@ -12,7 +12,7 @@ Every group needs to have at least 10 individuals (or entities)
   - Any numerical statistic
   - Scatterplots
 
-No mean, median, quantiles
+No median or specific quantiles
 - This also pertains to boxplots
   - Solution: Use fuzzy quantiles
 
@@ -46,12 +46,17 @@ Must not have one that constitutes a share of at least 80% of the following:
 - Brand
 - Manufacturer
 
+Must pass additional review from IRI representative.
 
 ### NCSES-NSF
 
 - Statistics and visualizations must also be based on at least 3 unique data points
 at an institution level
 
+Must pass additional review by NSF and IRIS representatives.
+
 ### OLDA (OSU)
 
 - Have to check for firm dominance (more than 80% of employees come from no more than 3 firms) if reporting on firm-based statistics.
+
+Must pass additional review by OLDA representative.
